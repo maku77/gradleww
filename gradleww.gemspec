@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'gradleww'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2017-08-07'
   s.summary     = 'Gradle Wrapper Wrapper'
   s.description = 'Searches gradlew from superior directories and executes it'
