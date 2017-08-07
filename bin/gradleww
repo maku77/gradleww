@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'gradleww'
+
+gradlew = Gradleww.search_superior_gradlew()
+if gradlew
+  Process.exec(gradlew, *ARGV)
+else
+  STDERR.puts "Error: Could not find a gradlew file."
+end
+
